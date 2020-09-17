@@ -1,0 +1,356 @@
+            @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+            * {
+                box-sizing: border-box;
+                margin: 0;
+            }
+            
+            body {
+                background-color: #F1F1F1;
+                font-family: 'Dosis', sans-serif;
+                font-size: 1em;
+                margin: 0;
+                width: 100%;
+            }
+            
+            header div {
+                background-image: url("../img/pasto.png");
+                height: 200px;
+                width: 100vw;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+            }
+            
+            header {
+                background-color: #96CDD5;
+                ;
+            }
+            
+            .imgHeader {
+                margin-right: 2em;
+            }
+            
+            header nav {
+                display: inline-block;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin: 0%;
+                height: 20px;
+                color: ghostwhite;
+            }
+            
+            nav ul {
+                list-style: none
+            }
+            
+            nav ul li {
+                display: inline-flex;
+            }
+            
+            nav ul li a {
+                text-decoration: none;
+            }
+            
+            .inline {
+                display: flex;
+                flex-direction: row;
+                justify-items: start;
+                align-items: baseline;
+            }
+            
+            h1 {
+                overflow: hidden;
+                margin: 0% 1%;
+                color: hotpink;
+                font-size: 2.5em;
+            }
+            
+            h2 {
+                margin-left: 1%;
+                font-size: 2em;
+            }
+            
+            h4 {
+                margin-top: 30px;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            .imgIndex {
+                margin-bottom: 10px;
+                width: 200px;
+            }
+            
+            .pDetalle {
+                margin: 1em;
+            }
+            
+            .centrarProd {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+            
+            .tituloDetalle {
+                display: flex;
+                width: 100%;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin-left: 20px;
+            }
+            
+            article {
+                width: 100vw;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+                transform: scale(0.9);
+                margin: 0;
+            }
+            
+            .contDetalle {
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            
+            .h3Colores {
+                margin: 2em;
+            }
+            
+            .detalleDeImgTex {
+                margin: 20px;
+                display: inline-flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .pContacto {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 100vw;
+                height: 40vh;
+            }
+            
+            .marginMail {
+                margin-left: 1em;
+            }
+            
+            .iframeDE {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                transform: scale(0.9);
+                width: 100vw;
+            }
+            
+            .iframeDE>li {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid hotpink;
+                background-color: rgb(248, 195, 223);
+                border-radius: 10px;
+                margin: 10px 0;
+            }
+            
+            .h3Detalle {
+                color: hotpink;
+            }
+            
+            .acercaDeImgTex {
+                margin: 2em 1em;
+                display: inline-flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            form.formReg {
+                width: 100vw;
+            }
+            
+            .divEnviar {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+            }
+            
+            .centrarForm {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 100%;
+                margin: 0;
+            }
+            
+            input {
+                border-radius: 5px;
+                border: 1px solid hotpink;
+                font-size: 1em;
+                margin: 5px 0;
+            }
+            
+            #hombre,
+            #mujer,
+            #otro,
+            #tejido,
+            #deco,
+            #arte,
+            #birthdate {
+                margin: 5px;
+            }
+            
+            .alingR {
+                text-align: right;
+                margin: 0 20px;
+            }
+            
+            .alingL {
+                text-align: right;
+                margin: 0 20px;
+            }
+            
+            .formReg {
+                width: 45%;
+                margin: 4.8% 1em;
+                display: inline-flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .btnEnviar {
+                display: flex;
+                border-radius: 5px;
+                background-color: hotpink;
+                font-family: 'Dosis', sans-serif;
+                font-size: 1em;
+                color: white;
+                padding: 8px 10px;
+            }
+            
+            .btnEnviar:hover {
+                background-color: fuchsia;
+                color: pink;
+            }
+            
+            .verMas {
+                margin: 1%;
+                border-radius: 5px;
+                background-color: hotpink;
+                font-family: 'Dosis', sans-serif;
+                font-size: 1em;
+                color: white;
+                padding: 8px 10px;
+                background-color: hotpink;
+                border-radius: 5px;
+            }
+            
+            .verMas:hover {
+                background-color: fuchsia;
+                color: pink;
+            }
+            
+            .pAcercaDe {
+                color: rgb(82, 81, 81);
+                margin-left: 1em;
+                font-size: 1em;
+            }
+            
+            footer {
+                background-color: blueviolet;
+                height: 80px;
+                position: relative;
+                bottom: 0px;
+                width: 100vw;
+                text-align: center;
+                font-size: 0.9em;
+                color: ghostwhite;
+                margin-top: 30px;
+            }
+            
+            footer a {
+                text-decoration: none;
+                color: white;
+                margin: 5px;
+            }
+            
+            @media (max-width: 667px) {
+                .imgHeader {
+                    transform: scale(0.9);
+                    margin: 0;
+                }
+                #estrafalarios {
+                    transform: scale(0.7);
+                }
+                #dibujoLogo {
+                    transform: scale(0.8);
+                }
+            }
+            
+            @media (max-width: 568px) {
+                #estrafalarios {
+                    transform: scale(0.6);
+                }
+            }
+            
+            @media (max-width: 414px) {
+                #estrafalarios {
+                    transform: scale(0.5);
+                    position: absolute;
+                    top: 40px;
+                    left: -80px;
+                }
+                #dibujoLogo {
+                    position: absolute;
+                    top: 40px;
+                    right: 0px;
+                }
+                header div {
+                    align-items: flex-end;
+                }
+                ul {
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                nav ul li {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    transform: scale(0.9);
+                }
+                nav {
+                    width: 100vw;
+                }
+                .btnEnviar {
+                    font-size: 0.8em;
+                }
+            }
