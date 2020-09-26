@@ -122,6 +122,7 @@ ul {
 }
 
 #navPpal {
+    z-index: 10;
     background-color: #96CDD5;
     position: relative;
     animation-name: example;
